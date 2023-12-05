@@ -11,3 +11,4 @@ public class _Quiz_01 {
         System.out.println("남은 거리 " + howFar + "km");
     }
 }
+
