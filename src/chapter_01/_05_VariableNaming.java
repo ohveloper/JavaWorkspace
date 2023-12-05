@@ -34,5 +34,14 @@ public class _05_VariableNaming {
 
         // 상수는 선언된 뒤 절대 바뀌지 않는 경우 대문자로 적는다.
         final String CODE = "KR";
+
+        int b1 = 20;
+        int z = --b1;
+//        System.out.println(z);
+//        System.out.println(b1);
+        int b2 = 6;
+        int b3 = 10 - b1++ * 3 - 8 / 2- --b2 * 3;
+        System.out.println(b3);
+//        System.out.println(--b2);
     }
 }
